@@ -1,0 +1,113 @@
+.frstBlock{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+.frstCol{
+    width:50%;
+    margin-left: 25vh;
+}
+.scndCol{
+    width:50%;
+}
+.blueText{
+    color:rgba(49, 70, 202,1);
+    font-size: 3vh;
+    padding: 20px 0 20px 0;
+}
+.headline{
+    font-size: 6vh;
+    font-weight: bold;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:8vh 0 8vh 0;
+}
+.homeContent{
+    width:50%;
+}
+.roundBorder{
+    border-radius: 50%;
+    width: 4vh;
+    height:4vh;
+    padding:4px;
+    border: 2px solid rgba(49, 70, 202);
+    margin-left:2vh;
+}
+.content2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex:1;
+    width:100%;
+}
+.textUnd{
+    text-decoration: 6px underline orange;
+}
+.subHeadline{
+    color:rgba(173,173,173,1);
+    font-size:3.4vh;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+}
+.btnHomeActive{
+    padding:20px;
+    background-color: rgba(82, 93, 237, 1);
+    color:#fff;
+    font-size:20px;
+    border :2px solid rgba(82, 93, 237, 1);
+}
+.btnContainer{
+    margin-top:4vh;
+    display: flex;
+}
+.img{
+    width: 70vh;
+}
+.btnHome{
+    padding:20px;
+    background-color:#fff;
+    color:rgba(82, 93, 237, 1);
+    font-size:20px;
+    border :2px solid rgba(82, 93, 237, 1);
+}
+.companyInfo{
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.companyInfo1{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    text-align: left;
+    
+} 
+.companyContent{
+    color:rgb(104, 102, 102);
+    font-size:18px;
+    padding:10px 0 10px 0;
+}
+.contentHeadline{
+    font-size:3vh;
+    font-weight:bold;
+    padding-top:10px;
+    text-align: left;
+}
+.companyLink{
+    color:orange;
+    font-size:18px;
+    font-weight:bold;
+    padding-bottom:20px;
+}
+.companyImg{
+    height:60px;
+}

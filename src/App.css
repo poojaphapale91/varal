@@ -1,38 +1,138 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.aboutContainer{
+  display: flex;
+  width:100%;
+  justify-content:space-around;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.aboutSec1{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width:33%;
+  margin-left: 2%;
+}
+.aboutSec2{
+  display: flex;
+  flex-direction: column;
+  width:33%;
+  margin-left: 10%;
+}
+.aboutHeading{
+  font-size:3vh;
+  font-weight:bold;
+  padding:0 4vh 0 4vh;
+  border-left: 1vh solid #525ded;
+  margin: 6vh 0 6vh 0;
+}
+.formation{
+  display:flex;
+  padding:2vh;
+}
+.icon{
+  padding:3vh;
+  border:2px solid #525ded;
+  border-radius:5px;
+}
+.iconContent{
+  font-size:2.7vh;
+  font-weight: bold;
+  padding-left:2vh;
+}
+.filter{
+  filter:brightness(0) invert(1);
+}
+.blueCont{
+  background-color: #525ded;
+  color:#fff;
+  height:13.5vh;
+  border-radius:5px;
+}
+.padText{
+  padding-top:2vh;
+}
+.testimonialIcon{
+  padding:1vh;
+  border-radius:50%;
+  border:2px solid #525ded;
+}
+.testimonial{
+  border-bottom: 2px solid #525ded;
+  height:19vh;
+}
+.small{
+  font-weight: normal;
+}
+.top-padding{
+  padding-top: 2vh;
+}
+.subGreyText{
+  color:grey;
+  list-style: none;
+  font-weight: normal;
+  font-size:2.5vh;
+}
+.padding-left{
+margin-left: 4vh;
+margin-top: 2vh;
+margin-bottom:4vh;
+}
+.subscribe{
+  background-image: url("../.././varal/public/Assets/Group\ 34.png");
+  width: 8vh;
+  height: 9vh;
+}
+.email{
+  padding:3vh;
+}
+.subBtn{
+  display: flex;
+  margin-top: 3vh;
+}
+.socialMedia{
+  display: flex;
+  width:50%;
+  justify-content:space-around;
+}
+.footer{
+  text-align: center;
+  color:grey;
+  font-size:3vh;
+  margin: 4vh 0 10vh 0;
+}
+
+@media screen and (max-width:500px){
+.frstBlock{
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.companyInfo{
+  flex-direction: column;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.serviceContainer{
+  flex-direction: column;
+  justify-content: center;
+  width:100%;
+}
+.serviceSec1 {
+  width:50% !important;
+}
+.serviceSec2 {
+  width:50% !important;
+}
+.flexPricing{
+  flex-direction: column;
+}
+.pricingBox1{
+  width: 50% !important;
+  margin-bottom:6vh;
+}
+.pricingBox2{
+  width: 50% !important;
+  margin-bottom:6vh;
+}
+.header{
+  flex-direction: column;
+}
 }
