@@ -78,9 +78,10 @@ margin-top: 2vh;
 margin-bottom:4vh;
 }
 .subscribe{
-  background-image: url("../.././varal/public/Assets/Group\ 34.png");
+  background-image: url("./Component/Group 34.png");
   width: 8vh;
   height: 9vh;
+  border: none;
 }
 .email{
   padding:3vh;
